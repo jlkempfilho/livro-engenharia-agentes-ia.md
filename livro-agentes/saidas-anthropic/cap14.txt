@@ -1,0 +1,14 @@
+últimas linhas do log:
+  {"quando": "2026-11-12T02:02:07", "etapa": "agente", "provedor": "anthropic", "modelo": "claude-opus-5-5", "ms": 2665, "entrada": 1225, "saida": 129, "cache_lido": 956, "parada": "fim", "ferramentas": []}
+  {"quando": "2026-11-12T02:02:09", "etapa": "agente", "provedor": "anthropic", "modelo": "claude-opus-5-5", "ms": 1737, "entrada": 784, "saida": 62, "cache_lido": 696, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
+  {"quando": "2026-11-12T02:02:11", "etapa": "agente", "provedor": "anthropic", "modelo": "claude-opus-5-5", "ms": 1972, "entrada": 1014, "saida": 67, "cache_lido": 780, "parada": "fim", "ferramentas": []}
+
+chamadas: 6 | erros: 0
+tokens: 5282 de entrada, 484 de saída, 4175 lidos do cache
+chamada mais lenta: 2850 ms | cortadas por limite: 0
+
+por etapa:
+  triagem  1 chamadas | 510 tokens de entrada | 2850 ms em média
+  agente   5 chamadas | 4772 tokens de entrada | 2173 ms em média
+
+custo estimado desta execução: US$ 0.0000

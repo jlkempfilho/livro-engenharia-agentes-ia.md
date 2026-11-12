@@ -1,0 +1,11 @@
+SEM streaming: 6.86s olhando para a tela parada (543 tokens)
+
+**ERP** (Enterprise Resource Planning, ou Planejamento dos Recursos da Empresa) é um sistema de gestão empresarial que integra, em uma única plataforma, os principais processos de uma organização. Em vez de cada setor usar um software isolado, o ERP reúne tudo em um banco de dados centralizado, permitindo que as informações circulem de forma unificada.
+
+Um ERP costuma ser dividido em módulos, cada um voltado para uma área específica, como finanças, contabilidade, estoque, compras, vendas, recursos humanos, produção e logística. Esses módulos conversam entre si: uma venda registrada, por exemplo, atualiza automaticamente o estoque, o financeiro e a contabilidade.
+
+Entre os principais benefícios estão a redução de retrabalho, a eliminação de dados duplicados ou inconsistentes, o maior controle sobre as operações e a geração de relatórios em tempo real. Com isso, os gestores conseguem tomar decisões mais rápidas e embasadas, além de identificar gargalos e oportunidades de melhoria.
+
+Existem ERPs para empresas de todos os portes, desde soluções robustas como SAP e Oracle até opções mais acessíveis como TOTVS, Omie e Bling. Eles podem ser instalados localmente (on-premise) ou acessados pela internet (em nuvem). A implantação exige planejamento, treinamento e adaptação dos processos, mas tende a trazer ganhos significativos de eficiência e organização.
+
+COM streaming: primeira palavra em 0.75s | total 5.52s (521 tokens)

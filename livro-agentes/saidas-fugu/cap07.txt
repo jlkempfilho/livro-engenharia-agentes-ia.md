@@ -1,0 +1,20 @@
+> O pedido 000123 está travado. Por quê, e o que eu faço para liberar?
+  volta 1: consultar_pedido({'numero': '000123'})
+  volta 2: buscar_manual({'consulta': 'pedido de venda bloqueado por crédito - como liberar'})
+  resposta (3 voltas): **Pedido 000123 — Mercado Sol — R$ 15.400,00**
+
+**Por que está travado:** status *bloqueado por crédito*.
+
+**Como liberar (conforme o manual):** a liberação é feita na rotina **Financeiro > Liberação de Crédito**, por um usuário com **perfil de analista de crédito**.
+
+> E o pedido 000125, consigo liberar na mão?
+  volta 1: consultar_pedido({'numero': '000125'})
+  volta 2: buscar_manual({'consulta': 'pedido de venda bloqueado por estoque - liberação manual'})
+  volta 3: consultar_pedido({'numero': '000125'})
+  volta 4: buscar_manual({'consulta': 'pedido 000125 bloqueado por estoque: possibilidade de liberação manual'})
+  volta 5: consultar_pedido({'numero': '000125'})
+  volta 6: buscar_manual({'consulta': 'pedido de venda bloqueado por estoque - liberação manual'})
+  resposta (6 voltas): Parei: limite de voltas atingido sem concluir.
+
+> mesma pergunta, com max_voltas=1
+  Parei: limite de voltas atingido sem concluir.

@@ -1,0 +1,13 @@
+[triagem] erp | prioridade alta | encaminhar a um humano
+[resumo]  Pedido 000123 não fatura no ERP enquanto o cliente aguarda no balcão.
+
+[passo 1] consultar_pedido({'numero': '000123'})
+[passo 2] buscar_manual({'consulta': 'pedido de venda bloqueado por crédito liberação'})
+O pedido **000123** não fatura porque está **bloqueado por crédito**.
+
+- **Cliente:** Mercado Sol
+- **Valor:** R$ 15.400,00
+
+**Como liberar, segundo o manual:** a liberação é feita na rotina **Financeiro > Liberação de Crédito**, e só um usuário com **perfil de analista de crédito** pode fazer isso. Como o cliente está esperando no balcão, ligue agora para o analista de crédito e peça a liberação. Depois disso, o pedido pode ser faturado.
+
+[log] 4 chamadas | 3556 tokens de entrada | 442 de saída | 2455 do cache | mais lenta 6063 ms | erros 0

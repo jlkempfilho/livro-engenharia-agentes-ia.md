@@ -1,0 +1,12 @@
+provedor: anthropic
+
+=== prefixo ESTÁVEL (o cache funciona) ===
+    2337 ms | entrada 4558 | lidos do cache 0 | Onde emito nota de saída?
+    1373 ms | entrada 4556 | lidos do cache 4541 | Quando roda o backup?
+    1968 ms | entrada 4559 | lidos do cache 4541 | Como peço acesso à VPN?
+
+=== prefixo com HORA no começo (o cache morre) ===
+    1423 ms | entrada 4573 | lidos do cache 0 | Onde emito nota de saída?
+    1441 ms | entrada 4571 | lidos do cache 0 | Quando roda o backup?
+    2148 ms | entrada 4574 | lidos do cache 0 | Como peço acesso à VPN?
+

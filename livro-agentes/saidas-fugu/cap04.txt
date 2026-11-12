@@ -1,0 +1,15 @@
+trechos no arquivo do manual: 15
+linhas na tabela: 15 
+
+> como libero um pedido travado?
+  0.784 [manual] Pedido de venda bloqueado por estoque é liberado sozinho quando o saldo do produ
+  0.742 [manual] Pedido de venda bloqueado por crédito é liberado na rotina Financeiro > Liberaçã
+
+> esqueci minha senha do sistema
+  0.620 [manual] Para redefinir a senha de um usuário do ERP, o administrador acessa Configurador
+  0.559 [manual] Rejeição 778 da SEFAZ: NCM inexistente. Corrija o NCM no cadastro do produto e t
+
+> a nota não transmite
+  0.674 [manual] Erro de conexão com a SEFAZ ao transmitir nota: verifique o certificado digital 
+  0.578 [manual] Rejeição 778 da SEFAZ: NCM inexistente. Corrija o NCM no cadastro do produto e t
+

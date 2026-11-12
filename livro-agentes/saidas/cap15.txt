@@ -1,0 +1,7 @@
+[triagem] erp | prioridade alta | encaminhar a um humano
+[resumo]  Pedido 000123 não fatura e cliente espera no balcão.
+
+[passo 1] consultar_pedido({'numero': '000123'})
+O pedido está bloqueado por crédito. Para liberá-lo, acesse a rotina Financeiro > Liberação de Crédito e realize a liberação por um usuário com perfil de analista de crédito.
+
+[log] 3 chamadas | 992 tokens de entrada | 120 de saída | 849 do cache | mais lenta 1116 ms | erros 0

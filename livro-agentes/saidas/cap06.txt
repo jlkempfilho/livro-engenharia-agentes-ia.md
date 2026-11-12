@@ -1,0 +1,12 @@
+> Qual a situação do pedido 000123?
+  parada: ferramenta
+  o modelo pediu: consultar_pedido({'numero': '000123'}) -> {"status": "bloqueado por crédito", "valor": 15400.0, "cliente": "Mercado Sol", "procedimento_do_manual": "Pedido de venda bloqueado por crédito é liberado na rotina Financeiro > Liberação de Crédito, por um usuário com perfil de analista de crédito."}  [erro: False]
+  resposta: O pedido 000123 encontra-se bloqueado por crédito. O valor total do pedido é de R$ 154,00. O cliente é o Mercado Sol.
+
+Para liberar este pedido, você deve acessar a rotina Financeiro > Liberação de Crédito, utilizando um perfil de analista de crédito.
+
+> E a do pedido 999999?
+  parada: ferramenta
+  o modelo pediu: consultar_pedido({'numero': '999999'}) -> {"erro": "pedido n\u00e3o encontrado"}  [erro: True]
+  resposta: O pedido número 999999 não foi encontrado. Poderia fornecer mais informações para que eu possa ajudar?
+

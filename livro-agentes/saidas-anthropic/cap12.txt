@@ -1,0 +1,14 @@
+1. tudo normal:
+   sistema no ar  [respondido por: claude-opus-5-5]
+
+2. modelo principal fora do ar (nome inexistente):
+  [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_
+   sistema no ar  [respondido por: claude-haiku-5-5]
+
+3. principal e reserva fora do ar:
+  [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_
+  [plano B] reserva-que-nao-existe falhou: NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_
+   Assistente indisponível no momento. Abra um chamado pelo portal.
+
+4. requisição errada (erro nosso): não vai para o plano B
+   ErroDefinitivo: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: at least one messag

@@ -1,0 +1,9 @@
+provedor: local | modelo: qwen2.5:7b
+
+Um ERP (Enterprise Resource Planning) é um sistema integrado que automatiza e coordena diversos processos de uma empresa, como finanças, recursos humanos e cadeia de suprimentos.
+[tokens de entrada: 39 | de saída: 42 | 1586 ms]
+
+7 palavras -> 40 tokens de entrada: o gato subiu no telhado da casa
+5 palavras -> 48 tokens de entrada: Protheus SIGAFAT MATA410 SF2010 SEFAZ
+
+Pergunta impossível: Para verificar o status do pedido de venda 000123 da sua empresa, você terá que acessar o sistema de gerenciamento de pedidos ou falar com a equipe de vendas ou suporte ao cliente. Essa informação geralmente pode ser encontrada no sistema de gestão de vendas ou com um membro da equipe responsável pe

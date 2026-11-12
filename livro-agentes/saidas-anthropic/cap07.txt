@@ -1,0 +1,16 @@
+> O pedido 000123 está travado. Por quê, e o que eu faço para liberar?
+  volta 1: consultar_pedido({'numero': '000123'})
+  volta 2: buscar_manual({'consulta': 'pedido de venda bloqueado por crédito como liberar'})
+  resposta (3 voltas): O pedido **000123** (cliente Mercado Sol, R$ 15.400,00) está **bloqueado por crédito**.
+
+**Para liberar:** use a rotina **Financeiro > Liberação de Crédito**. A liberação precisa ser feita por um usuário com **perfil de analista de crédito**. Se você não tiver esse perfil, peça a um analista de crédito para fazer a liberação.
+
+> E o pedido 000125, consigo liberar na mão?
+  volta 1: consultar_pedido({'numero': '000125'})
+  volta 2: buscar_manual({'consulta': 'pedido de venda bloqueado por estoque liberação manual'})
+  resposta (3 voltas): Não, não dá pra liberar manualmente. O pedido **000125** (Empório Mar, R$ 3.200,00) está **bloqueado por estoque**. Segundo o manual, esse tipo de bloqueio sai sozinho quando o saldo do produto é reposto. Não existe liberação manual pra ele.
+
+Pra ele andar, o estoque do produto precisa ser reposto.
+
+> mesma pergunta, com max_voltas=1
+  Parei: limite de voltas atingido sem concluir.

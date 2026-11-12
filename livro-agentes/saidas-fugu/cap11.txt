@@ -1,0 +1,12 @@
+provedor: compativel
+
+=== prefixo ESTÁVEL (o cache funciona) ===
+    9659 ms | entrada 5274 | lidos do cache 0 | Onde emito nota de saída?
+    8893 ms | entrada 5272 | lidos do cache 4829 | Quando roda o backup?
+    7240 ms | entrada 5275 | lidos do cache 4829 | Como peço acesso à VPN?
+
+=== prefixo com HORA no começo (o cache morre) ===
+   16173 ms | entrada 5466 | lidos do cache 0 | Onde emito nota de saída?
+    8700 ms | entrada 5287 | lidos do cache 0 | Quando roda o backup?
+    6393 ms | entrada 5290 | lidos do cache 0 | Como peço acesso à VPN?
+

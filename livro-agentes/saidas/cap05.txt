@@ -1,0 +1,12 @@
+> Como libero um pedido travado por crédito?
+Libere o pedido na rotina Financeiro > Liberação de Crédito, por um usuário com perfil de analista de crédito.
+  [entrada: 233 tokens]
+
+> Até quando posso cancelar uma nota fiscal?
+O cancelamento de nota fiscal só é permitido em até 24 horas da emissão, em Faturamento > Cancelamento de Documento.
+  [entrada: 254 tokens]
+
+> Qual a alíquota de ICMS em São Paulo?
+Não encontrei isso na base.
+  [entrada: 251 tokens]
+

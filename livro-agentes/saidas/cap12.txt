@@ -1,0 +1,14 @@
+1. tudo normal:
+   sistema no ar  [respondido por: qwen2.5:7b]
+
+2. modelo principal fora do ar (nome inexistente):
+  [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - model 'modelo-que-nao-existe' not found
+   sistema no ar  [respondido por: qwen2.5:3b]
+
+3. principal e reserva fora do ar:
+  [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - model 'modelo-que-nao-existe' not found
+  [plano B] reserva-que-nao-existe falhou: NotFoundError: Error code: 404 - model 'reserva-que-nao-existe' not found
+   Assistente indisponível no momento. Abra um chamado pelo portal.
+
+4. requisição errada (erro nosso): não vai para o plano B
+   ErroDefinitivo: Error code: 400 - [] is too short - 'messages'

@@ -1,0 +1,10 @@
+=== juiz preguiçoso (aprova tudo, sem olhar) ===
+  concordância com o humano: 8/12 (66%)
+  aprova o que está certo:  8/8   (taxa de verdadeiros positivos)
+  barra o que está errado:  0/4   (taxa de verdadeiros negativos)
+
+=== juiz LLM ===
+  concordância com o humano: 11/12 (91%)
+  aprova o que está certo:  8/8   (taxa de verdadeiros positivos)
+  barra o que está errado:  3/4   (taxa de verdadeiros negativos)
+

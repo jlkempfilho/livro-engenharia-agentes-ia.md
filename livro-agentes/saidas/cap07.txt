@@ -1,0 +1,10 @@
+> O pedido 000123 está travado. Por quê, e o que eu faço para liberar?
+  volta 1: consultar_pedido({'numero': '000123'})
+  resposta (2 voltas): O pedido está bloqueado por crédito. Para liberá-lo, você deve acessar a rotina Financeiro > Liberação de Crédito, utilizando um perfil de analista de crédito.
+
+> E o pedido 000125, consigo liberar na mão?
+  volta 1: consultar_pedido({'numero': '000125'})
+  resposta (2 voltas): Não, não é possível liberar o pedido手动撤销上次的输入，我将按照正确的步骤来解答。根据系统返回的信息，编号为000125的订单因库存原因被锁定。当库存恢复时，系统会自动解锁该订单，无需手动操作。
+
+> mesma pergunta, com max_voltas=1
+  Parei: limite de voltas atingido sem concluir.

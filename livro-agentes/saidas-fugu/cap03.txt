@@ -1,0 +1,8 @@
+pergunta: preciso faturar um pedido  (vetor de 768 números)
+
+0.619  Como emitir nota fiscal de saída no faturamento
+0.510  Cadastro de produtos e unidades de medida
+0.524  Receita de bolo de cenoura com cobertura
+
+'pedido aprovado' x 'pedido não aprovado': 0.954
+'pedido aprovado' x 'pedido recusado':     0.823

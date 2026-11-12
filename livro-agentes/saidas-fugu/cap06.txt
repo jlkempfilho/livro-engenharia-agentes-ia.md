@@ -1,0 +1,10 @@
+> Qual a situação do pedido 000123?
+  parada: ferramenta
+  o modelo pediu: consultar_pedido({'numero': '000123'}) -> {"status": "bloqueado por crédito", "valor": 15400.0, "cliente": "Mercado Sol", "procedimento_do_manual": "Pedido de venda bloqueado por crédito é liberado na rotina Financeiro > Liberação de Crédito, por um usuário com perfil de analista de crédito."}  [erro: False]
+  o modelo quer outra ferramenta: ['buscar_manual'] (uma volta só não basta; o laço do capítulo 7 resolve)
+
+> E a do pedido 999999?
+  parada: ferramenta
+  o modelo pediu: consultar_pedido({'numero': '999999'}) -> {"erro": "pedido n\u00e3o encontrado"}  [erro: True]
+  o modelo quer outra ferramenta: ['buscar_manual'] (uma volta só não basta; o laço do capítulo 7 resolve)
+

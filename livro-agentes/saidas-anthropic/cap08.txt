@@ -1,0 +1,15 @@
+> Bom dia, desde ontem ninguém do faturamento consegue emitir nota, dá e...
+  categoria=erp | prioridade=alta | precisa_humano=True
+  resumo: Setor de faturamento não consegue emitir notas fiscais por erro de conexão com a SEFAZ, deixando 40 caminhões parados no pátio.
+  tipo Python: Chamado
+
+> Oi, queria saber como troco minha foto de perfil no sistema. Sem press...
+  categoria=acesso | prioridade=baixa | precisa_humano=False
+  resumo: Usuário pergunta como trocar a foto de perfil no sistema, sem urgência.
+  tipo Python: Chamado
+
+> A impressora fiscal do caixa 3 está offline e o botão de reiniciar não...
+  categoria=hardware | prioridade=alta | precisa_humano=True
+  resumo: Impressora fiscal do caixa 3 está offline e não voltou após reinicialização, impedindo a operação do caixa.
+  tipo Python: Chamado
+
