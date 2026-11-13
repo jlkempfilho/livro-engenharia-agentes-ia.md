@@ -6,5 +6,5 @@
 > E a do pedido 999999?
   parada: ferramenta
   o modelo pediu: consultar_pedido({'numero': '999999'}) -> {"erro": "pedido n\u00e3o encontrado"}  [erro: True]
-  o modelo quer outra ferramenta: ['buscar_manual'] (uma volta só não basta; o laço do capítulo 7 resolve)
+  o modelo quer outra ferramenta: ['consultar_pedido'] (uma volta só não basta; o laço do capítulo 7 resolve)
 

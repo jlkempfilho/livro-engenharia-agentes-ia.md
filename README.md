@@ -6,4 +6,8 @@ Livro didático em português, com teoria e prática a cada capítulo. O projeto
 - Código: [livro-agentes/codigo](livro-agentes/codigo) (copie `.env.exemplo` para `.env` antes de rodar)
 - Saídas reais das execuções: `livro-agentes/saidas*`
 
-Os créditos das figuras de terceiros estão no fim do livro.
+## Pode copiar e usar à vontade
+
+O código está sob a licença MIT e o texto sob a CC BY 4.0: basta citar a autoria. Detalhes em [LICENSE](LICENSE). Os créditos das figuras de terceiros estão no fim do livro.
+
+Autor: José Luiz Kemp Filho

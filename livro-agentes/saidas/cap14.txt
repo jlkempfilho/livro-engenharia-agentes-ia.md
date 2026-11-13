@@ -1,14 +1,14 @@
 últimas linhas do log:
-  {"quando": "2026-11-12T01:56:38", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 802, "entrada": 504, "saida": 38, "cache_lido": 404, "parada": "fim", "ferramentas": []}
-  {"quando": "2026-11-12T01:56:38", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 499, "entrada": 377, "saida": 24, "cache_lido": 365, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
-  {"quando": "2026-11-12T01:56:39", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 583, "entrada": 525, "saida": 26, "cache_lido": 391, "parada": "fim", "ferramentas": []}
+  {"quando": "2026-11-13T01:40:26", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 712, "entrada": 504, "saida": 33, "cache_lido": 404, "parada": "fim", "ferramentas": []}
+  {"quando": "2026-11-13T01:40:27", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 501, "entrada": 377, "saida": 24, "cache_lido": 365, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
+  {"quando": "2026-11-13T01:40:27", "etapa": "agente", "provedor": "local", "modelo": "qwen2.5:7b", "ms": 598, "entrada": 525, "saida": 26, "cache_lido": 391, "parada": "fim", "ferramentas": []}
 
 chamadas: 5 | erros: 0
-tokens: 1876 de entrada, 170 de saída, 1601 lidos do cache
-chamada mais lenta: 1361 ms | cortadas por limite: 0
+tokens: 1892 de entrada, 157 de saída, 1617 lidos do cache
+chamada mais lenta: 1257 ms | cortadas por limite: 0
 
 por etapa:
-  triagem  1 chamadas | 81 tokens de entrada | 1361 ms em média
-  agente   4 chamadas | 1795 tokens de entrada | 605 ms em média
+  triagem  1 chamadas | 97 tokens de entrada | 1257 ms em média
+  agente   4 chamadas | 1795 tokens de entrada | 590 ms em média
 
 custo estimado desta execução: US$ 0.0000

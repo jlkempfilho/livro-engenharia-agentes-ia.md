@@ -1,13 +1,13 @@
 > Como libero um pedido travado por crédito?
-Um pedido de venda bloqueado por crédito é liberado na rotina **Financeiro > Liberação de Crédito**. A liberação precisa ser feita por um usuário com **perfil de analista de crédito** [manual].
+Um pedido de venda bloqueado por crédito é liberado pela rotina **Financeiro > Liberação de Crédito**. Essa liberação precisa ser feita por um usuário com **perfil de analista de crédito** [manual].
 
 Se você não tem esse perfil, peça a liberação a um analista de crédito.
 
-Se o pedido for de um **cliente novo**, a análise de crédito precisa estar registrada antes em **Financeiro > Limite de Crédito**, pois sem ela o cliente não pode receber pedidos [manual].
+Se o pedido estiver bloqueado por **estoque**, e não por crédito, não há liberação manual. Ele é liberado sozinho quando o saldo do produto é reposto [manual].
   [entrada: 357 tokens]
 
 > Até quando posso cancelar uma nota fiscal?
-Você pode cancelar uma nota fiscal **em até 24 horas da emissão**, pelo caminho **Faturamento > Cancelamento de Documento** [manual].
+Você pode cancelar uma nota fiscal **em até 24 horas da emissão**, pelo menu **Faturamento > Cancelamento de Documento** [manual].
   [entrada: 373 tokens]
 
 > Qual a alíquota de ICMS em São Paulo?

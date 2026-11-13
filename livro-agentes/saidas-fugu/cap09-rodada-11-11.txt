@@ -1,0 +1,11 @@
+SEM streaming: 48.95s olhando para a tela parada (1093 tokens)
+
+ERP é a sigla para *Enterprise Resource Planning* (Planejamento de Recursos Empresariais). Trata-se de um sistema de gestão que integra, em uma única plataforma e com uma base de dados comum, os principais processos e informações de uma empresa, substituindo vários programas isolados por um sistema central.
+
+Ele é organizado em módulos — como financeiro, contabilidade, fiscal, compras, estoque, vendas, produção e recursos humanos — que compartilham os mesmos dados. Assim, cada área trabalha com informações atualizadas e consistentes, sem precisar repassar planilhas ou redigitar registros de um sistema para outro.
+
+Na prática, ao registrar uma venda, o ERP pode baixar o estoque, gerar o contas a receber e alimentar a emissão fiscal em um único fluxo. O resultado é menos retrabalho e erros, mais padronização e controle, além de relatórios confiáveis para apoiar decisões.
+
+Existem ERPs instalados nos servidores da própria empresa (*on-premise*) e versões em nuvem contratadas como serviço, com mensalidade e menor custo inicial — há desde soluções para grandes corporações até opções voltadas a pequenas e médias empresas. Em qualquer caso, a implantação exige planejamento, revisão de processos e treinamento das equipes, pois o sucesso depende tanto da gestão da mudança quanto da tecnologia.
+
+COM streaming: primeira palavra em 38.84s | total 38.84s (921 tokens)

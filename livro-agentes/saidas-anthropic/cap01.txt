@@ -1,16 +1,14 @@
 provedor: anthropic | modelo: claude-opus-5-5
 
-ERP (Enterprise Resource Planning, ou Planejamento dos Recursos da Empresa) é um sistema de gestão integrado que reúne em uma única plataforma os principais processos de uma empresa, como finanças, estoque, vendas, compras, produção e recursos humanos.
-[tokens de entrada: 23 | de saída: 99 | 4012 ms]
+ERP (Enterprise Resource Planning) é um sistema de gestão integrada que reúne em uma única plataforma os processos e dados de diferentes áreas de uma empresa, como finanças, estoque, vendas, compras e recursos humanos.
+[tokens de entrada: 23 | de saída: 86 | 3931 ms]
 
 7 palavras -> 21 tokens de entrada: o gato subiu no telhado da casa
 5 palavras -> 35 tokens de entrada: Protheus SIGAFAT MATA410 SF2010 SEFAZ
 
-Pergunta impossível: Não tenho acesso aos sistemas da sua empresa (ERP, CRM, banco de dados etc.), então não consigo consultar o pedido **000123** diretamente.
+Pergunta impossível: Não tenho acesso aos sistemas da sua empresa (ERP, banco de dados ou portais internos), então não consigo consultar o status do pedido **000123**. Posso, porém, ajudar você a encontrá-lo.
 
-Posso ajudar de outras formas:
+## Onde consultar, conforme o sistema
 
-### 1. Consultar no seu sistema
-Se me disser qual ERP vocês usam, explico o caminho. Alguns exemplos comuns:
-
-- **TOTVS Protheus
+**TOTVS Protheus** (o formato "000123" é comum nele)
+- Vá em **Faturamen

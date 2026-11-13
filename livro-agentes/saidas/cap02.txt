@@ -1,26 +1,26 @@
 === COM memória (histórico completo) ===
 > O que é um índice num banco de dados?
-Um índice em um banco de dados é uma estrutura de dados que acelera a operação de busca, permitindo que os dados sejam encontrados mais rapidamente.
+Um índice em um banco de dados é uma estrutura que aumenta a velocidade de busca de dados, semelhante a uma indexação em um livro.
   [entrada: 41 tokens]
 
 > E qual a desvantagem dele?
 A desvantagem principal é que índices ocupam espaço adicional no banco de dados e podem aumentar o tempo de escrita, pois o índice precisa ser atualizado toda vez que os dados são inseridos, atualizados ou deletados.
-  [entrada: 95 tokens]
+  [entrada: 93 tokens]
 
 > Resuma em uma frase o que conversamos.
-Conversamos sobre o que são índices em bancos de dados e suas vantagens em termos de velocidade de busca, bem como a desvantagem do aumento de espaço e tempo de escrita.
-  [entrada: 165 tokens]
+Conversamos sobre o que são índices em bancos de dados e suas desvantagens, como o aumento do espaço ocupado e a diminuição do desempenho nas operações de escrita.
+  [entrada: 163 tokens]
 
 === SEM guardar as respostas do assistente ===
 > O que é um índice num banco de dados?
-Um índice em um banco de dados é uma estrutura de dados que melhora a velocidade de acesso a registros, similar a como um índice alfabético em um livro facilita a localização de informações.
+Um índice em um banco de dados é uma estrutura de dados que melhora o desempenho da busca, permitindo que os dados sejam recuperados mais rapidamente.
   [entrada: 41 tokens]
 
 > E qual a desvantagem dele?
-Um índice em um banco de dados é uma estrutura que melhora o desempenho das consultas, permitindo que as informações sejam encontradas e recuperadas mais rapidamente. A desvantagem é que ele pode aumentar o tempo de escrita, pois o índice precisa ser atualizado toda vez que os dados são alterados.
+Um índice em um banco de dados é uma estrutura de dados que melhora a velocidade de acesso a registros específicos, similar a uma tabela de conteúdo em um livro. A desvantagem é que eles podem aumentar o tempo necessário para inserir e atualizar dados, pois as informações do índice precisam ser atualizadas cada vez que os dados são alterados.
   [entrada: 49 tokens]
 
 > Resuma em uma frase o que conversamos.
-Um índice em um banco de dados é uma estrutura que aumenta a velocidade de busca de registros. A desvantagem é que ele pode aumentar o tempo de escrita e ocupa mais espaço no disco. Conversamos sobre o que é um índice e sua possível desvantagem em banco de dados.
+Um índice em um banco de dados é uma estrutura que melhora o desempenho da busca por dados. A desvantagem é que ele pode aumentar o tempo de escrita no banco de dados. Conversamos sobre o que é um índice e sua principal desvantagem.
   [entrada: 59 tokens]
 

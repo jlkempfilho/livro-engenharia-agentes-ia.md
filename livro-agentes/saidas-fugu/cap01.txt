@@ -1,11 +1,11 @@
 provedor: compativel | modelo: fugu-ultra-v2.0
 
-Um ERP (Enterprise Resource Planning, ou Sistema Integrado de Gestão Empresarial) é um software que integra em uma única base de dados os principais processos e áreas de uma empresa — como finanças, compras, estoque, produção, vendas e recursos humanos —, permitindo que a informação flua de forma centralizada e em tempo real para apoiar a gestão e a tomada de decisão.
-[tokens de entrada: 739 | de saída: 218 | 9047 ms]
+Um ERP (Enterprise Resource Planning, ou Planejamento de Recursos Empresariais) é um sistema de software integrado que centraliza e gerencia, em uma única base de dados, os principais processos de uma empresa — como finanças, estoque, compras, vendas, produção e recursos humanos — permitindo que as áreas compartilhem informações em tempo real.
+[tokens de entrada: 739 | de saída: 161 | 8178 ms]
 
 7 palavras -> 737 tokens de entrada: o gato subiu no telhado da casa
 5 palavras -> 217 tokens de entrada: Protheus SIGAFAT MATA410 SF2010 SEFAZ
 
-Pergunta impossível: Não consigo verificar isso agora: não tenho conexão com o ERP/sistema de vendas da sua empresa nesta sessão, então não há como eu abrir o pedido 000123 e ler o status real. Qualquer status que eu informasse seria invenção — e prefiro não fazer isso com um dado operacional.
+Pergunta impossível: Não consigo consultar esse pedido: nesta sessão não tenho nenhuma conexão ativa com o sistema da sua empresa (ERP, CRM ou base de dados de vendas), e não há ferramenta disponível para eu fazer a leitura. Qualquer status que eu informasse seria inventado, então prefiro não arriscar.
 
-Para eu ajudar de verdade
+Para eu consegui

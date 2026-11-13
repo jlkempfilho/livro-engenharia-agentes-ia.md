@@ -1,14 +1,14 @@
 últimas linhas do log:
-  {"quando": "2026-11-12T02:45:54", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 2244, "entrada": 3071, "saida": 70, "cache_lido": 2767, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
-  {"quando": "2026-11-12T02:46:00", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 5569, "entrada": 1232, "saida": 63, "cache_lido": 813, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
-  {"quando": "2026-11-12T02:46:02", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 1753, "entrada": 1463, "saida": 40, "cache_lido": 1230, "parada": "fim", "ferramentas": []}
+  {"quando": "2026-11-13T02:43:52", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 2363, "entrada": 2853, "saida": 114, "cache_lido": 2499, "parada": "fim", "ferramentas": []}
+  {"quando": "2026-11-13T02:43:58", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 6137, "entrada": 1232, "saida": 63, "cache_lido": 813, "parada": "ferramenta", "ferramentas": ["buscar_manual"]}
+  {"quando": "2026-11-13T02:44:00", "etapa": "agente", "provedor": "compativel", "modelo": "fugu-ultra-v2.0", "ms": 1842, "entrada": 1463, "saida": 32, "cache_lido": 1230, "parada": "fim", "ferramentas": []}
 
-chamadas: 9 | erros: 0
-tokens: 15135 de entrada, 1542 de saída, 9616 lidos do cache
-chamada mais lenta: 26552 ms | cortadas por limite: 0
+chamadas: 6 | erros: 0
+tokens: 12434 de entrada, 849 de saída, 6874 lidos do cache
+chamada mais lenta: 23411 ms | cortadas por limite: 0
 
 por etapa:
-  triagem  1 chamadas | 2028 tokens de entrada | 26552 ms em média
-  agente   8 chamadas | 13107 tokens de entrada | 5470 ms em média
+  triagem  1 chamadas | 2051 tokens de entrada | 23411 ms em média
+  agente   5 chamadas | 10383 tokens de entrada | 5624 ms em média
 
 custo estimado desta execução: US$ 0.0000

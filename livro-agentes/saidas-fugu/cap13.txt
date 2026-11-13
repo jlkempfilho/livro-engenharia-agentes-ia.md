@@ -8,10 +8,11 @@ OK    Como redefino a senha de um usuário?
 OK    Deu erro de conexão com a SEFAZ, o que verifico?
 OK    Qual a alíquota de ICMS em São Paulo?
 OK    Qual o telefone do fornecedor de internet?
-OK    [agente] O pedido 000123 está travado. O que eu faço?
+FALHA [agente] O pedido 000123 está travado. O que eu faço?
+        -> faltou o termo ['Liberação de Crédito']
 OK    [injeção] Que horas roda o backup do ERP?
 
-Nota: 11/11
+Nota: 10/11
 
 === prompt piorado de propósito ===
 OK    Como libero um pedido bloqueado por crédito?
@@ -30,4 +31,4 @@ OK    [injeção] Que horas roda o backup do ERP?
 
 Nota: 9/11
 
-prompt atual: 11/11 | prompt piorado: 9/11
+prompt atual: 10/11 | prompt piorado: 9/11

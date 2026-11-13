@@ -1,26 +1,26 @@
 === COM memória (histórico completo) ===
 > O que é um índice num banco de dados?
-Um índice é uma estrutura de dados auxiliar (geralmente uma árvore B ou tabela hash) que o banco cria sobre uma ou mais colunas para localizar registros rapidamente, sem precisar varrer a tabela inteira, como o índice remissivo de um livro. Em troca, ele ocupa espaço extra e torna as operações de escrita (INSERT, UPDATE, DELETE) um pouco mais lentas, pois também precisa ser atualizado.
+Um índice é uma estrutura auxiliar, geralmente uma árvore B, que organiza os valores de uma ou mais colunas para que o banco encontre registros rapidamente sem precisar ler a tabela inteira, como o índice remissivo de um livro. Em troca, ele ocupa espaço extra e deixa as operações de escrita (INSERT, UPDATE, DELETE) um pouco mais lentas, porque precisa ser atualizado junto com os dados.
   [entrada: 47 tokens]
 
 > E qual a desvantagem dele?
-As principais desvantagens são o **espaço extra em disco** e a **lentidão nas escritas** (INSERT, UPDATE, DELETE), já que cada índice precisa ser atualizado junto com a tabela. Além disso, índices em excesso ou mal planejados (por exemplo, em colunas com poucos valores distintos) podem não trazer ganho real e ainda dificultar a manutenção do banco.
-  [entrada: 226 tokens]
+As principais desvantagens são o **espaço extra em disco** e a **lentidão nas escritas**, já que cada INSERT, UPDATE ou DELETE também precisa atualizar todos os índices da tabela. Por isso, criar índices demais ou em colunas pouco consultadas pode piorar o desempenho geral em vez de melhorar.
+  [entrada: 223 tokens]
 
 > Resuma em uma frase o que conversamos.
-Conversamos que um índice é uma estrutura que acelera buscas num banco de dados, mas que tem como desvantagens ocupar espaço extra, deixar as escritas mais lentas e poder ser inútil se usado em excesso ou mal planejado.
-  [entrada: 412 tokens]
+Um índice é uma estrutura que acelera as buscas no banco de dados, mas ocupa espaço extra e deixa as escritas mais lentas, por isso deve ser usado com moderação.
+  [entrada: 390 tokens]
 
 === SEM guardar as respostas do assistente ===
 > O que é um índice num banco de dados?
-Um índice é uma estrutura de dados auxiliar, geralmente uma árvore B, que o banco mantém sobre uma ou mais colunas para localizar registros rapidamente, sem precisar varrer a tabela inteira. Funciona como o índice remissivo de um livro: acelera muito as consultas (SELECT), mas ocupa espaço extra e torna inserções e atualizações um pouco mais lentas.
+Um índice é uma estrutura de dados auxiliar, geralmente uma árvore B, que o banco de dados mantém sobre uma ou mais colunas de uma tabela para localizar registros rapidamente sem precisar varrer a tabela inteira, como o índice remissivo de um livro. Em troca da busca mais rápida, ele ocupa espaço extra e pode deixar as operações de inserção, atualização e exclusão um pouco mais lentas, pois também precisa ser atualizado.
   [entrada: 47 tokens]
 
 > E qual a desvantagem dele?
-Um índice é uma estrutura de dados auxiliar (geralmente uma árvore B) que permite ao banco localizar linhas rapidamente sem varrer a tabela inteira, como o índice remissivo de um livro. A desvantagem é que ele ocupa espaço extra e torna operações de escrita (INSERT, UPDATE, DELETE) mais lentas, já que o índice também precisa ser atualizado a cada alteração.
+Um índice é uma estrutura auxiliar (geralmente uma árvore B) que organiza os valores de uma ou mais colunas para permitir buscas rápidas, sem precisar varrer a tabela inteira, como o índice remissivo de um livro. A desvantagem é que ele ocupa espaço extra em disco e deixa mais lentas as operações de escrita (INSERT, UPDATE, DELETE), já que o índice também precisa ser atualizado a cada alteração.
   [entrada: 60 tokens]
 
 > Resuma em uma frase o que conversamos.
-Um índice é uma estrutura auxiliar que acelera buscas numa tabela, como o índice de um livro, mas tem como desvantagem ocupar espaço extra e deixar mais lentas as inserções, atualizações e exclusões, já que precisa ser mantido em dia. Resumindo: índices tornam as consultas mais rápidas ao custo de armazenamento adicional e escritas mais lentas.
+Um índice é uma estrutura auxiliar que acelera buscas numa tabela, como o índice remissivo de um livro, mas tem a desvantagem de ocupar espaço extra e deixar mais lentas as inserções, atualizações e exclusões. Em resumo, conversamos sobre como os índices tornam as consultas mais rápidas ao custo de armazenamento e de desempenho nas escritas.
   [entrada: 77 tokens]
 

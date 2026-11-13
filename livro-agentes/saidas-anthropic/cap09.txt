@@ -1,11 +1,11 @@
-SEM streaming: 6.86s olhando para a tela parada (543 tokens)
+SEM streaming: 7.21s olhando para a tela parada (599 tokens)
 
-**ERP** (Enterprise Resource Planning, ou Planejamento dos Recursos da Empresa) é um sistema de gestão empresarial que integra, em uma única plataforma, os principais processos de uma organização. Em vez de cada setor usar um software isolado, o ERP reúne tudo em um banco de dados centralizado, permitindo que as informações circulem de forma unificada.
+ERP (Enterprise Resource Planning, ou Planejamento de Recursos Empresariais) é um sistema de gestão que integra, em uma única plataforma, os principais processos de uma empresa. Em vez de cada setor usar um software isolado, o ERP reúne tudo em um banco de dados central. Assim, as informações circulam de forma padronizada entre as áreas.
 
-Um ERP costuma ser dividido em módulos, cada um voltado para uma área específica, como finanças, contabilidade, estoque, compras, vendas, recursos humanos, produção e logística. Esses módulos conversam entre si: uma venda registrada, por exemplo, atualiza automaticamente o estoque, o financeiro e a contabilidade.
+Um ERP costuma ser organizado em módulos, como finanças, contabilidade, estoque, compras, vendas, produção, recursos humanos e logística. Esses módulos se comunicam entre si. Uma venda registrada, por exemplo, atualiza automaticamente o estoque, gera o lançamento financeiro e alimenta os relatórios contábeis.
 
-Entre os principais benefícios estão a redução de retrabalho, a eliminação de dados duplicados ou inconsistentes, o maior controle sobre as operações e a geração de relatórios em tempo real. Com isso, os gestores conseguem tomar decisões mais rápidas e embasadas, além de identificar gargalos e oportunidades de melhoria.
+Entre os principais benefícios estão a redução de retrabalho e de erros manuais, maior controle sobre as operações e acesso a dados confiáveis em tempo real. Isso facilita a tomada de decisões estratégicas, melhora a produtividade e ajuda a empresa a cumprir obrigações fiscais e legais com mais segurança.
 
-Existem ERPs para empresas de todos os portes, desde soluções robustas como SAP e Oracle até opções mais acessíveis como TOTVS, Omie e Bling. Eles podem ser instalados localmente (on-premise) ou acessados pela internet (em nuvem). A implantação exige planejamento, treinamento e adaptação dos processos, mas tende a trazer ganhos significativos de eficiência e organização.
+Existem ERPs para empresas de todos os portes, desde soluções robustas como SAP e Oracle até opções voltadas a pequenos negócios, como Omie, Bling e TOTVS. Eles podem ser instalados em servidores próprios (on-premise) ou acessados pela internet (em nuvem). A implantação exige planejamento, treinamento e adaptação de processos, mas tende a trazer ganhos significativos de eficiência.
 
-COM streaming: primeira palavra em 0.75s | total 5.52s (521 tokens)
+COM streaming: primeira palavra em 0.66s | total 5.62s (523 tokens)

@@ -1,11 +1,11 @@
-SEM streaming: 48.95s olhando para a tela parada (1093 tokens)
+SEM streaming: 38.40s olhando para a tela parada (916 tokens)
 
-ERP é a sigla para *Enterprise Resource Planning* (Planejamento de Recursos Empresariais). Trata-se de um sistema de gestão que integra, em uma única plataforma e com uma base de dados comum, os principais processos e informações de uma empresa, substituindo vários programas isolados por um sistema central.
+**ERP** é a sigla de *Enterprise Resource Planning* (Planejamento dos Recursos Empresariais). Trata‑se de um sistema de gestão integrado que reúne, em uma única plataforma e em uma base de dados compartilhada, os principais processos de uma organização.
 
-Ele é organizado em módulos — como financeiro, contabilidade, fiscal, compras, estoque, vendas, produção e recursos humanos — que compartilham os mesmos dados. Assim, cada área trabalha com informações atualizadas e consistentes, sem precisar repassar planilhas ou redigitar registros de um sistema para outro.
+Ele funciona por módulos que conversam entre si — finanças, compras, estoque, produção, vendas e recursos humanos. Ao registrar uma venda, por exemplo, o sistema baixa o estoque, aciona a reposição, gera o faturamento e faz o lançamento contábil: a informação é inserida uma só vez e fica disponível para todas as áreas.
 
-Na prática, ao registrar uma venda, o ERP pode baixar o estoque, gerar o contas a receber e alimentar a emissão fiscal em um único fluxo. O resultado é menos retrabalho e erros, mais padronização e controle, além de relatórios confiáveis para apoiar decisões.
+Os principais ganhos são a redução de retrabalho e de dados duplicados, a padronização dos processos, maior controle e rastreabilidade das operações e relatórios mais confiáveis para a tomada de decisão.
 
-Existem ERPs instalados nos servidores da própria empresa (*on-premise*) e versões em nuvem contratadas como serviço, com mensalidade e menor custo inicial — há desde soluções para grandes corporações até opções voltadas a pequenas e médias empresas. Em qualquer caso, a implantação exige planejamento, revisão de processos e treinamento das equipes, pois o sucesso depende tanto da gestão da mudança quanto da tecnologia.
+Em contrapartida, a implantação costuma ser cara e demorada, exigindo revisão de processos, treinamento e migração cuidadosa dos dados. Há opções para grandes corporações (SAP, Oracle, Microsoft Dynamics) e para pequenas e médias empresas (Totvs, Omie, Bling), tanto em nuvem (SaaS) quanto instaladas localmente (*on‑premise*).
 
-COM streaming: primeira palavra em 38.84s | total 38.84s (921 tokens)
+COM streaming: primeira palavra em 35.69s | total 35.69s (1193 tokens)

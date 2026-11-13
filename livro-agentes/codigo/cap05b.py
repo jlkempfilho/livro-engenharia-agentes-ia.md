@@ -1,9 +1,6 @@
 """Capítulo 5, parte 2 - medir a busca: só significado x híbrida (significado + palavra)."""
 from banco import buscar, buscar_hibrida, carregar_manual, conectar
 
-conn = conectar()
-carregar_manual(conn)
-
 # (pergunta, pedaço que identifica o trecho correto)
 CASOS = [
     ("como libero um pedido bloqueado por crédito?", "Liberação de Crédito"),
@@ -21,7 +18,7 @@ CASOS = [
 ]
 
 
-def medir(nome, funcao):
+def medir(conn, nome, funcao):
     top1 = top3 = 0
     erros = []
     for pergunta, marca in CASOS:
@@ -37,5 +34,8 @@ def medir(nome, funcao):
     print()
 
 
-medir("só significado (vetorial)", buscar)
-medir("híbrida (vetorial + palavra-chave, fusão RRF)", buscar_hibrida)
+if __name__ == "__main__":
+    conn = conectar()
+    carregar_manual(conn)
+    medir(conn, "só significado (vetorial)", buscar)
+    medir(conn, "híbrida (vetorial + palavra-chave, fusão RRF)", buscar_hibrida)

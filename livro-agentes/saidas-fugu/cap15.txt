@@ -1,14 +1,12 @@
 [triagem] erp | prioridade alta | encaminhar a um humano
-[resumo]  Pedido 000123 não conclui o faturamento no ERP, com cliente aguardando no balcão; exige desbloqueio e análise urgente por atendente humano.','precisa_humano':true}
+[resumo]  Pedido 000123 não conclui faturamento no ERP, com cliente aguardando no balcão; atendimento parado exige análise e liberação urgentes.,"precisa_humano": true
 
 Vou consultar o pedido primeiro.[passo 1] consultar_pedido({'numero': '000123'})
-Consultando o manual para o bloqueio encontrado.[passo 2] buscar_manual({'consulta': 'pedido de venda bloqueado por crédito - como liberar'})
-**Pedido 000123 — Mercado Sol — R$ 15.400,00**
-Status: **bloqueado por crédito** (por isso não fatura).
+Pedido consultado: **000123 — Mercado Sol — R$ 15.400,00 — status: bloqueado por crédito**. Vou buscar o procedimento no manual antes de orientar.[passo 2] buscar_manual({'consulta': 'pedido de venda bloqueado por crédito - como liberar'})
+**Pedido 000123 — Mercado Sol — R$ 15.400,00 — bloqueado por crédito.**
 
-**Como resolver (manual):**
-A liberação é feita na rotina **Financeiro > Liberação de Crédito**, por um **usuário com perfil de analista de crédito**.
+Procedimento do manual: a liberação é feita na rotina **Financeiro > Liberação de Crédito**, por um **usuário com perfil de analista de crédito**.
 
-Ou seja: acione um analista de crédito para fazer a liberação nessa rotina. Depois disso o pedido pode ser faturado.
+Ou seja, o faturamento só sai depois que um analista de crédito liberar o pedido nessa rotina — não há como destravar pelo balcão nem pela tela de faturamento. Acione um analista de crédito agora para fazer a liberação.
 
-[log] 4 chamadas | 9694 tokens de entrada | 1391 de saída | 5456 do cache | mais lenta 27618 ms | erros 0
+[log] 4 chamadas | 9741 tokens de entrada | 1218 de saída | 6269 do cache | mais lenta 26176 ms | erros 0

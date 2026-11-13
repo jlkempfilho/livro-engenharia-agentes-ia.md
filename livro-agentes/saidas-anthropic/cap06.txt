@@ -6,17 +6,17 @@
 - **Cliente:** Mercado Sol
 - **Valor:** R$ 15.400,00
 
-**Como liberar:** a liberação é feita em **Financeiro > Liberação de Crédito**, por alguém com perfil de **analista de crédito**. Se você não tiver esse perfil, peça a liberação ao responsável pelo crédito.
+**Como liberar:** a liberação é feita em **Financeiro > Liberação de Crédito**. Só um usuário com perfil de **analista de crédito** pode fazer isso. Se você não tiver esse perfil, peça a liberação à equipe de crédito informando o número do pedido.
 
 > E a do pedido 999999?
   parada: ferramenta
   o modelo pediu: consultar_pedido({'numero': '999999'}) -> {"erro": "pedido n\u00e3o encontrado"}  [erro: True]
-  resposta: O pedido **999999** não existe no sistema. A consulta voltou com o erro "pedido não encontrado".
+  resposta: Não encontrei o pedido **999999** no sistema.
 
-Algumas causas possíveis:
-- **Número digitado errado:** confira os 6 dígitos no documento de onde você tirou o número.
-- **Número usado só para teste:** "999999" é comum como exemplo ou valor fictício.
-- **Pedido ainda não lançado ou cancelado:** ele pode não ter sido registrado no ERP.
+Pode ser que:
+- tenha algum dígito errado no número;
+- o pedido ainda não tenha sido lançado no ERP;
+- ou ele tenha sido cancelado ou excluído.
 
-Se tiver outro número para conferir, me passe que eu consulto.
+Confira o número, por favor. Se tiver outro dado do pedido, como o nome do cliente ou a data, me passe que eu ajudo a procurar.
 

@@ -1,15 +1,15 @@
 > Bom dia, desde ontem ninguém do faturamento consegue emitir nota, dá e...
   categoria=erp | prioridade=alta | precisa_humano=True
-  resumo: Falha de conexão com a SEFAZ impede emissão de notas pelo faturamento desde ontem, com 40 caminhões parados.jpg
+  resumo: Falha de conexão com a SEFAZ impede emissão de notas pelo faturamento desde ontem, com 40 caminhões parados.
   tipo Python: Chamado
 
 > Oi, queria saber como troco minha foto de perfil no sistema. Sem press...
   categoria=outro | prioridade=baixa | precisa_humano=False
-  resumo: Usuário pede orientação sobre como alterar a própria foto de perfil no sistema, sem urgência e sem impacto operacional.', 'precisa_humano': False}
+  resumo: Usuário pede orientação sobre como alterar a foto de perfil no sistema, sem urgência e sem impacto operacional.be: nenhum.', 
   tipo Python: Chamado
 
 > A impressora fiscal do caixa 3 está offline e o botão de reiniciar não...
   categoria=hardware | prioridade=alta | precisa_humano=True
-  resumo: Impressora fiscal do caixa 3 offline após reinício sem sucesso, impedindo emissão de cupons e exigindo verificação física no local.», "precisa_humano": true
+  resumo: Impressora fiscal do caixa 3 segue offline após reinício, parando as vendas no ponto e exigindo verificação física no local.», "precisa_humano": true}
   tipo Python: Chamado
 

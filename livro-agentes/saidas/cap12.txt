@@ -3,7 +3,7 @@
 
 2. modelo principal fora do ar (nome inexistente):
   [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - model 'modelo-que-nao-existe' not found
-   sistema no ar  [respondido por: qwen2.5:3b]
+   Sistema no ar  [respondido por: qwen2.5:3b]
 
 3. principal e reserva fora do ar:
   [plano B] modelo-que-nao-existe falhou: NotFoundError: Error code: 404 - model 'modelo-que-nao-existe' not found
